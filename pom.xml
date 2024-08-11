@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>hello-spring</artifactId>
+	<artifactId>hello-fspring</artifactId>
 	<version>1.0.0</version>
 	<name>hello-spring</name>
 	<description>Demo project for Spring Boot</description>
