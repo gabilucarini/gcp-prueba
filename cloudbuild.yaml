@@ -15,9 +15,7 @@ steps:
     gcloud config set deploy/region us-central1
     gcloud deploy apply --file cloud-deploy/prod/pipeline.yaml
     gcloud deploy apply --file cloud-deploy/prod/target.yaml
-    gcloud deploy releases create imagen \
-                        --delivery-pipeline=imagen \
-                        --skaffold-file=imagen.yaml
+    gcloud deploy releases create imagen --delivery-pipeline=marvel --skaffold-file=skaffold.yaml
 images: ['us-central1-docker.pkg.dev/gcp-vpn-428200/prueba-gaby/imagen']
 options:
   logging: CLOUD_LOGGING_ONLY
