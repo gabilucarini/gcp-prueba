@@ -1,8 +1,0 @@
-apiVersion: deploy.cloud.google.com/v1
-kind: Target
-metadata:
-  name: marvel-prod
-  labels: {}
-requireApproval: true
-gke:
-  cluster: projects/gcp-vpn-428200/locations/us-central1-c/clusters/cluster-1
